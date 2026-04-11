@@ -1,1 +1,254 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Skills Lab - eFootball Hub</title>
+
+<style>
+:root {
+  --bg: #0b0f14;
+  --card: #121824;
+  --accent: #00ff87;
+  --text: #e6e6e6;
+  --muted: #9aa4b2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* NAV */
+nav {
+  position: sticky;
+  top: 0;
+  background: rgba(10,15,20,0.9);
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  border-bottom: 1px solid #1f2a3a;
+}
+
+nav h1 {
+  color: var(--accent);
+  font-size: 18px;
+}
+
+nav a {
+  color: var(--muted);
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: var(--accent);
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h2 {
+  color: var(--accent);
+  font-size: 28px;
+}
+
+header p {
+  color: var(--muted);
+  margin-top: 10px;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* SECTION */
+.section {
+  margin-top: 40px;
+}
+
+.section h3 {
+  color: var(--accent);
+  margin-bottom: 15px;
+}
+
+/* CARD */
+.card {
+  background: var(--card);
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #1f2a3a;
+}
+
+.card:hover {
+  border-color: var(--accent);
+}
+
+/* TEXT */
+.highlight {
+  color: var(--accent);
+  font-weight: bold;
+}
+
+.small {
+  color: var(--muted);
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  color: var(--muted);
+  border-top: 1px solid #1f2a3a;
+  margin-top: 40px;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <h1>Skills Lab</h1>
+  <div>
+    <a href="index.html">Home</a>
+    <a href="academy.html">Academy</a>
+    <a href="iq.html">Game IQ</a>
+    <a href="players.html">Players</a>
+  </div>
+</nav>
+
+<header>
+  <h2>⚡ Skills & Mechanics Lab</h2>
+  <p>Master dribbling, shooting, and advanced mechanics</p>
+</header>
+
+<div class="container">
+
+<!-- DRIBBLING -->
+<div class="section">
+  <h3>🕹️ Dribbling Skills</h3>
+
+  <div class="card">
+    <p class="highlight">Double Touch</p>
+    <p class="small">👉 Quickly flick joystick left/right while moving</p>
+    <p class="small">✅ Use when 1v1 vs defender</p>
+    <p class="small">🔥 Pro Tip: Combine with sprint burst after</p>
+  </div>
+
+  <div class="card">
+    <p class="highlight">Marseille Turn</p>
+    <p class="small">👉 Rotate joystick in half circle</p>
+    <p class="small">✅ Use when surrounded or tight space</p>
+    <p class="small">🔥 Pro Tip: Don’t spam — use once to escape</p>
+  </div>
+
+  <div class="card">
+    <p class="highlight">Ball Roll</p>
+    <p class="small">👉 Light drag left or right</p>
+    <p class="small">✅ Use to reposition before pass or shot</p>
+    <p class="small">🔥 Pro Tip: Perfect for creating shooting angles</p>
+  </div>
+
+</div>
+
+<!-- SHOOTING -->
+<div class="section">
+  <h3>🎯 Shooting Techniques</h3>
+
+  <div class="card">
+    <p class="highlight">Stunning Shot</p>
+    <p class="small">👉 Hold shoot button longer</p>
+    <p class="small">✅ Use outside the box</p>
+    <p class="small">🔥 Pro Tip: Needs space or it gets blocked</p>
+  </div>
+
+  <div class="card">
+    <p class="highlight">Finesse Shot</p>
+    <p class="small">👉 Tap shoot lightly + direction</p>
+    <p class="small">✅ Use inside box or angle</p>
+    <p class="small">🔥 Pro Tip: Aim far corner always</p>
+  </div>
+
+  <div class="card">
+    <p class="highlight">First-Time Shot</p>
+    <p class="small">👉 Shoot immediately after pass</p>
+    <p class="small">✅ Use for fast attacks</p>
+    <p class="small">🔥 Pro Tip: Don’t control ball first</p>
+  </div>
+
+</div>
+
+<!-- PASSING -->
+<div class="section">
+  <h3>🎯 Passing Mastery</h3>
+
+  <div class="card">
+    <p class="highlight">Through Pass</p>
+    <p class="small">👉 Press through pass button</p>
+    <p class="small">✅ Use when striker runs behind defense</p>
+    <p class="small">🔥 Pro Tip: Timing is everything</p>
+  </div>
+
+  <div class="card">
+    <p class="highlight">One-Touch Pass</p>
+    <p class="small">👉 Pass instantly after receiving</p>
+    <p class="small">✅ Use for quick build-up play</p>
+    <p class="small">🔥 Pro Tip: Avoid holding ball too long</p>
+  </div>
+
+</div>
+
+<!-- ADVANCED -->
+<div class="section">
+  <h3>⚡ Advanced Mechanics</h3>
+
+  <div class="card">
+    <p class="highlight">Momentum Dribbling</p>
+    <p class="small">👉 Trigger sprint at correct timing</p>
+    <p class="small">✅ Use after beating defender</p>
+    <p class="small">🔥 Pro Tip: Don’t sprint constantly</p>
+  </div>
+
+  <div class="card">
+    <p class="highlight">Acceleration Burst</p>
+    <p class="small">👉 Tap sprint quickly</p>
+    <p class="small">✅ Use to create sudden space</p>
+    <p class="small">🔥 Pro Tip: Best with fast players</p>
+  </div>
+
+  <div class="card">
+    <p class="highlight">Blitz Curl</p>
+    <p class="small">👉 Special shooting skill (certain players)</p>
+    <p class="small">✅ Use outside box for curl shots</p>
+    <p class="small">🔥 Pro Tip: Angle matters more than power</p>
+  </div>
+
+</div>
+
+</div>
+
+<footer>
+© 2026 eFootball Hub • Skills Lab
+</footer>
+
+</body>
+</html>
